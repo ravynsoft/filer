@@ -1,0 +1,3 @@
+# Filer
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A file manager and re-implementation of macOS's [Finder](https://en.wikipedia.org/wiki/Finder_(software)).  A key component of [ravynOS](https://www.ravynos.com/), Filer is the first application you see after you start ravynOS up and finish logging in.  It opens automatically and stays open as you use other apps.  It includes Filer's menus in the menu bar at the top of the screen and the filesystem contents of the desktop below that.  It uses windows and icons to show you the contents of your device and other storage.  
