@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC14C29F283DC62700BDB5CA /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14C29C283DC62700BDB5CA /* AppController.m */; };
+		FC14C2A0283DC62700BDB5CA /* FileSystemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14C29D283DC62700BDB5CA /* FileSystemNode.m */; };
+		FC14C2A5283ED0E100BDB5CA /* FileSystemBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14C2A2283ED0E000BDB5CA /* FileSystemBrowserCell.m */; };
+		FC14C2A6283ED0E100BDB5CA /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14C2A3283ED0E100BDB5CA /* PreviewViewController.m */; };
+		FC14C2AB283ED21700BDB5CA /* PreviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC14C2A7283ED21600BDB5CA /* PreviewView.xib */; };
+		FC14C2AC283ED21700BDB5CA /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC14C2A9283ED21700BDB5CA /* HeaderView.xib */; };
+		FC38C40C27BAFE82009720F6 /* filer-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = FC38C40B27BAFE82009720F6 /* filer-1024.png */; };
+		FC78DD47277FF6CF005E91FC /* PrefDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC78DD46277FF6CF005E91FC /* PrefDelegate.m */; };
+		FC8AA5482825728B000F1D85 /* desktop.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8AA5462825728B000F1D85 /* desktop.xib */; };
+		FCA0BD4327541B7300A0B48D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA0BD4227541B7300A0B48D /* AppDelegate.m */; };
+		FCA0BD4527541B8200A0B48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA0BD4427541B8200A0B48D /* Assets.xcassets */; };
+		FCA0BD4A27541B8200A0B48D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA0BD4927541B8200A0B48D /* main.m */; };
+		FCA0BD5527541B8300A0B48D /* filer_cocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA0BD5427541B8300A0B48D /* filer_cocoaTests.m */; };
+		FCA0BD5F27541B8300A0B48D /* filer_cocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA0BD5E27541B8300A0B48D /* filer_cocoaUITests.m */; };
+		FCA0BD6127541B8300A0B48D /* filer_cocoaUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA0BD6027541B8300A0B48D /* filer_cocoaUITestsLaunchTests.m */; };
+		FCA0BD6F275424BF00A0B48D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA0BD4627541B8200A0B48D /* MainMenu.xib */; };
+		FCAC41C728231DC50039AC91 /* FilemanDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAC41C628231DC50039AC91 /* FilemanDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCA0BD5127541B8300A0B48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA0BD3627541B7200A0B48D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA0BD3D27541B7200A0B48D;
+			remoteInfo = "filer-cocoa";
+		};
+		FCA0BD5B27541B8300A0B48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA0BD3627541B7200A0B48D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA0BD3D27541B7200A0B48D;
+			remoteInfo = "filer-cocoa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC14C29B283DC62700BDB5CA /* FileSystemNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSystemNode.h; sourceTree = "<group>"; };
+		FC14C29C283DC62700BDB5CA /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		FC14C29D283DC62700BDB5CA /* FileSystemNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSystemNode.m; sourceTree = "<group>"; };
+		FC14C29E283DC62700BDB5CA /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		FC14C2A1283ED0E000BDB5CA /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		FC14C2A2283ED0E000BDB5CA /* FileSystemBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSystemBrowserCell.m; sourceTree = "<group>"; };
+		FC14C2A3283ED0E100BDB5CA /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
+		FC14C2A4283ED0E100BDB5CA /* FileSystemBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSystemBrowserCell.h; sourceTree = "<group>"; };
+		FC14C2A8283ED21600BDB5CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PreviewView.xib; sourceTree = "<group>"; };
+		FC14C2AA283ED21700BDB5CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HeaderView.xib; sourceTree = "<group>"; };
+		FC38C40B27BAFE82009720F6 /* filer-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filer-1024.png"; sourceTree = "<group>"; };
+		FC78DD45277FF65D005E91FC /* PrefDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefDelegate.h; sourceTree = "<group>"; };
+		FC78DD46277FF6CF005E91FC /* PrefDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrefDelegate.m; sourceTree = "<group>"; };
+		FC8AA5472825728B000F1D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../../filer_desktop/filer_desktop/Base.lproj/desktop.xib; sourceTree = "<group>"; };
+		FCA0BD3E27541B7300A0B48D /* Filer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA0BD4127541B7300A0B48D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCA0BD4227541B7300A0B48D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCA0BD4427541B8200A0B48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA0BD4727541B8200A0B48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FCA0BD4927541B8200A0B48D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCA0BD4B27541B8200A0B48D /* filer_cocoa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = filer_cocoa.entitlements; sourceTree = "<group>"; };
+		FCA0BD5027541B8300A0B48D /* filer-cocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "filer-cocoaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA0BD5427541B8300A0B48D /* filer_cocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = filer_cocoaTests.m; sourceTree = "<group>"; };
+		FCA0BD5A27541B8300A0B48D /* filer-cocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "filer-cocoaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA0BD5E27541B8300A0B48D /* filer_cocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = filer_cocoaUITests.m; sourceTree = "<group>"; };
+		FCA0BD6027541B8300A0B48D /* filer_cocoaUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = filer_cocoaUITestsLaunchTests.m; sourceTree = "<group>"; };
+		FCAC41C628231DC50039AC91 /* FilemanDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilemanDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA0BD3B27541B7200A0B48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA0BD4D27541B8300A0B48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA0BD5727541B8300A0B48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC8AA53D28248824000F1D85 /* desktop */ = {
+			isa = PBXGroup;
+			children = (
+				FC8AA5462825728B000F1D85 /* desktop.xib */,
+			);
+			path = desktop;
+			sourceTree = "<group>";
+		};
+		FCA0BD3527541B7200A0B48D = {
+			isa = PBXGroup;
+			children = (
+				FCA0BD4027541B7300A0B48D /* filer-cocoa */,
+				FCA0BD5327541B8300A0B48D /* filer-cocoaTests */,
+				FCA0BD5D27541B8300A0B48D /* filer-cocoaUITests */,
+				FCA0BD3F27541B7300A0B48D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA0BD3F27541B7300A0B48D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA0BD3E27541B7300A0B48D /* Filer.app */,
+				FCA0BD5027541B8300A0B48D /* filer-cocoaTests.xctest */,
+				FCA0BD5A27541B8300A0B48D /* filer-cocoaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA0BD4027541B7300A0B48D /* filer-cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				FC8AA53D28248824000F1D85 /* desktop */,
+				FC38C40B27BAFE82009720F6 /* filer-1024.png */,
+				FCA0BD4127541B7300A0B48D /* AppDelegate.h */,
+				FCA0BD4227541B7300A0B48D /* AppDelegate.m */,
+				FCA0BD4427541B8200A0B48D /* Assets.xcassets */,
+				FCA0BD4627541B8200A0B48D /* MainMenu.xib */,
+				FC14C2A9283ED21700BDB5CA /* HeaderView.xib */,
+				FC14C2A7283ED21600BDB5CA /* PreviewView.xib */,
+				FC14C29E283DC62700BDB5CA /* AppController.h */,
+				FC14C29C283DC62700BDB5CA /* AppController.m */,
+				FC14C29B283DC62700BDB5CA /* FileSystemNode.h */,
+				FC14C29D283DC62700BDB5CA /* FileSystemNode.m */,
+				FC14C2A4283ED0E100BDB5CA /* FileSystemBrowserCell.h */,
+				FC14C2A2283ED0E000BDB5CA /* FileSystemBrowserCell.m */,
+				FC14C2A1283ED0E000BDB5CA /* PreviewViewController.h */,
+				FC14C2A3283ED0E100BDB5CA /* PreviewViewController.m */,
+				FCA0BD4927541B8200A0B48D /* main.m */,
+				FCA0BD4B27541B8200A0B48D /* filer_cocoa.entitlements */,
+				FC78DD45277FF65D005E91FC /* PrefDelegate.h */,
+				FC78DD46277FF6CF005E91FC /* PrefDelegate.m */,
+				FCAC41C628231DC50039AC91 /* FilemanDelegate.m */,
+			);
+			path = "filer-cocoa";
+			sourceTree = "<group>";
+		};
+		FCA0BD5327541B8300A0B48D /* filer-cocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA0BD5427541B8300A0B48D /* filer_cocoaTests.m */,
+			);
+			path = "filer-cocoaTests";
+			sourceTree = "<group>";
+		};
+		FCA0BD5D27541B8300A0B48D /* filer-cocoaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA0BD5E27541B8300A0B48D /* filer_cocoaUITests.m */,
+				FCA0BD6027541B8300A0B48D /* filer_cocoaUITestsLaunchTests.m */,
+			);
+			path = "filer-cocoaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA0BD3D27541B7200A0B48D /* filer-cocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA0BD6427541B8300A0B48D /* Build configuration list for PBXNativeTarget "filer-cocoa" */;
+			buildPhases = (
+				FCA0BD3A27541B7200A0B48D /* Sources */,
+				FCA0BD3B27541B7200A0B48D /* Frameworks */,
+				FCA0BD3C27541B7200A0B48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "filer-cocoa";
+			productName = "filer-cocoa";
+			productReference = FCA0BD3E27541B7300A0B48D /* Filer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCA0BD4F27541B8300A0B48D /* filer-cocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA0BD6727541B8300A0B48D /* Build configuration list for PBXNativeTarget "filer-cocoaTests" */;
+			buildPhases = (
+				FCA0BD4C27541B8300A0B48D /* Sources */,
+				FCA0BD4D27541B8300A0B48D /* Frameworks */,
+				FCA0BD4E27541B8300A0B48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA0BD5227541B8300A0B48D /* PBXTargetDependency */,
+			);
+			name = "filer-cocoaTests";
+			productName = "filer-cocoaTests";
+			productReference = FCA0BD5027541B8300A0B48D /* filer-cocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCA0BD5927541B8300A0B48D /* filer-cocoaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA0BD6A27541B8300A0B48D /* Build configuration list for PBXNativeTarget "filer-cocoaUITests" */;
+			buildPhases = (
+				FCA0BD5627541B8300A0B48D /* Sources */,
+				FCA0BD5727541B8300A0B48D /* Frameworks */,
+				FCA0BD5827541B8300A0B48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA0BD5C27541B8300A0B48D /* PBXTargetDependency */,
+			);
+			name = "filer-cocoaUITests";
+			productName = "filer-cocoaUITests";
+			productReference = FCA0BD5A27541B8300A0B48D /* filer-cocoaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA0BD3627541B7200A0B48D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FCA0BD3D27541B7200A0B48D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FCA0BD4F27541B8300A0B48D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FCA0BD3D27541B7200A0B48D;
+					};
+					FCA0BD5927541B8300A0B48D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FCA0BD3D27541B7200A0B48D;
+					};
+				};
+			};
+			buildConfigurationList = FCA0BD3927541B7200A0B48D /* Build configuration list for PBXProject "filer-cocoa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA0BD3527541B7200A0B48D;
+			productRefGroup = FCA0BD3F27541B7300A0B48D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA0BD3D27541B7200A0B48D /* filer-cocoa */,
+				FCA0BD4F27541B8300A0B48D /* filer-cocoaTests */,
+				FCA0BD5927541B8300A0B48D /* filer-cocoaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA0BD3C27541B7200A0B48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA0BD4527541B8200A0B48D /* Assets.xcassets in Resources */,
+				FC38C40C27BAFE82009720F6 /* filer-1024.png in Resources */,
+				FC14C2AB283ED21700BDB5CA /* PreviewView.xib in Resources */,
+				FC14C2AC283ED21700BDB5CA /* HeaderView.xib in Resources */,
+				FCA0BD6F275424BF00A0B48D /* MainMenu.xib in Resources */,
+				FC8AA5482825728B000F1D85 /* desktop.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA0BD4E27541B8300A0B48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA0BD5827541B8300A0B48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA0BD3A27541B7200A0B48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC14C29F283DC62700BDB5CA /* AppController.m in Sources */,
+				FCA0BD4A27541B8200A0B48D /* main.m in Sources */,
+				FC14C2A5283ED0E100BDB5CA /* FileSystemBrowserCell.m in Sources */,
+				FC78DD47277FF6CF005E91FC /* PrefDelegate.m in Sources */,
+				FC14C2A6283ED0E100BDB5CA /* PreviewViewController.m in Sources */,
+				FC14C2A0283DC62700BDB5CA /* FileSystemNode.m in Sources */,
+				FCA0BD4327541B7300A0B48D /* AppDelegate.m in Sources */,
+				FCAC41C728231DC50039AC91 /* FilemanDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA0BD4C27541B8300A0B48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA0BD5527541B8300A0B48D /* filer_cocoaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA0BD5627541B8300A0B48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA0BD5F27541B8300A0B48D /* filer_cocoaUITests.m in Sources */,
+				FCA0BD6127541B8300A0B48D /* filer_cocoaUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCA0BD5227541B8300A0B48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA0BD3D27541B7200A0B48D /* filer-cocoa */;
+			targetProxy = FCA0BD5127541B8300A0B48D /* PBXContainerItemProxy */;
+		};
+		FCA0BD5C27541B8300A0B48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA0BD3D27541B7200A0B48D /* filer-cocoa */;
+			targetProxy = FCA0BD5B27541B8300A0B48D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC14C2A7283ED21600BDB5CA /* PreviewView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC14C2A8283ED21600BDB5CA /* Base */,
+			);
+			name = PreviewView.xib;
+			sourceTree = "<group>";
+		};
+		FC14C2A9283ED21700BDB5CA /* HeaderView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC14C2AA283ED21700BDB5CA /* Base */,
+			);
+			name = HeaderView.xib;
+			sourceTree = "<group>";
+		};
+		FC8AA5462825728B000F1D85 /* desktop.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8AA5472825728B000F1D85 /* Base */,
+			);
+			name = desktop.xib;
+			sourceTree = "<group>";
+		};
+		FCA0BD4627541B8200A0B48D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA0BD4727541B8200A0B48D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA0BD6227541B8300A0B48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_WARNINGS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Filer;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FCA0BD6327541B8300A0B48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_WARNINGS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = Filer;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FCA0BD6527541B8300A0B48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "filer-cocoa/filer_cocoa.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Filer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravynos.filer;
+				PRODUCT_NAME = Filer;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		FCA0BD6627541B8300A0B48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "filer-cocoa/filer_cocoa.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Filer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravynos.filer;
+				PRODUCT_NAME = Filer;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		FCA0BD6827541B8300A0B48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.airyx.filer-cocoaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/filer-cocoa.app/Contents/MacOS/filer-cocoa";
+			};
+			name = Debug;
+		};
+		FCA0BD6927541B8300A0B48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.airyx.filer-cocoaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/filer-cocoa.app/Contents/MacOS/filer-cocoa";
+			};
+			name = Release;
+		};
+		FCA0BD6B27541B8300A0B48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.airyx.filer-cocoaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "filer-cocoa";
+			};
+			name = Debug;
+		};
+		FCA0BD6C27541B8300A0B48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.airyx.filer-cocoaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "filer-cocoa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA0BD3927541B7200A0B48D /* Build configuration list for PBXProject "filer-cocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA0BD6227541B8300A0B48D /* Debug */,
+				FCA0BD6327541B8300A0B48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA0BD6427541B8300A0B48D /* Build configuration list for PBXNativeTarget "filer-cocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA0BD6527541B8300A0B48D /* Debug */,
+				FCA0BD6627541B8300A0B48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA0BD6727541B8300A0B48D /* Build configuration list for PBXNativeTarget "filer-cocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA0BD6827541B8300A0B48D /* Debug */,
+				FCA0BD6927541B8300A0B48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA0BD6A27541B8300A0B48D /* Build configuration list for PBXNativeTarget "filer-cocoaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA0BD6B27541B8300A0B48D /* Debug */,
+				FCA0BD6C27541B8300A0B48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA0BD3627541B7200A0B48D /* Project object */;
+}
