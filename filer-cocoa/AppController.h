@@ -6,7 +6,12 @@
  Application Controller object, and the NSBrowser delegate. An instance of this object is in the MainMenu.xib.
  */
 
+#if __APPLE__
 @import Cocoa;
+#endif
+#if __RAVYNOS__
+#import <Cocoa/Cocoa.h>
+#endif
 
 @interface AppController : NSObject
 
