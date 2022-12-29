@@ -6,7 +6,12 @@
  View Controller subclass used for our preview pane in NSBrowser.
  */
 
+#if __APPLE__
 @import Cocoa;
+#endif
+#if __RAVYNOS__
+#import <Cocoa/Cocoa.h>
+#endif
 
 @interface PreviewViewController : NSViewController
 

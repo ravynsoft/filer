@@ -6,7 +6,12 @@
  An abstract wrapper node around the file system.
  */
 
+#if __APPLE__
 @import Cocoa;
+#endif
+#if __RAVYNOS__
+#import <Cocoa/Cocoa.h>
+#endif
 
 // This is a simple wrapper around the file system. Its main purpose is to cache children.
 @interface FileSystemNode : NSObject
